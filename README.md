@@ -41,7 +41,7 @@ git remote set-url --add origin XXX 添加远程仓库地址
 
 3.问题：README.md上传至远程仓库后中文显示乱码  
 
-解决：未解决
+解决：默认编码格式为GBK2312，VS-文件-高级保存选项-编码改为Unicode(UTF-8带签名), 之后再次push即可
 
 ### (1.29-2.11)
 
