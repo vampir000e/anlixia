@@ -1,5 +1,0 @@
-# EvertyingQt
-
----
-
-testtest
