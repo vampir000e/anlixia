@@ -1,11 +1,11 @@
-# KTinySTLProject
+ï»¿# KTinySTLProject
 
 ---
 
 
-»ùÓÚC++11µÄKTinySTL£¬ÊµÏÖ³£¼ûÈÝÆ÷¡¢Ëã·¨£¬°üÀ¨£º  
+åŸºäºŽC++11çš„KTinySTLï¼Œå®žçŽ°å¸¸è§å®¹å™¨ã€ç®—æ³•ï¼ŒåŒ…æ‹¬ï¼š  
 
-- ÈÝÆ÷
+- å®¹å™¨
 	- KVector
 	- KList
 	- KStack
@@ -15,9 +15,9 @@
 	- KMap
 	- KSet
 
-- Ëã·¨
-	- sortÅÅÐòËã·¨
-	- find²éÕÒËã·¨
+- ç®—æ³•
+	- sortæŽ’åºç®—æ³•
+	- findæŸ¥æ‰¾ç®—æ³•
 
 
  
