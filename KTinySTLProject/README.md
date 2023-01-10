@@ -11,8 +11,7 @@
 	- KList
 	- KStack
 	- KQueue
-	- KQueue
-	- KDqueue
+	- KDeque
 	- KMap
 	- KSet
 

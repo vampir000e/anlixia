@@ -21,7 +21,7 @@
 
 ⬜ 8.STL源码 & Qt源码
 
-⬜ 9.KTinySTL & EvertyingQt
+⬜ 9.KTinySTL & EverythingQt
 
 ## 周总结
 
