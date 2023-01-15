@@ -80,6 +80,10 @@
 
 - **问题2 ： 如何解决 git 冲突?**
 
+    根据提示，查看冲突文件内容，需要手动修改冲突  
+    针对<<<<<<< 和 ======= 之间的区域以及<<<<<<< 和 ======= 之间的区域，更改之后再次git add暂存，然后再次提交  
+    通过git log可以查看分支合并的信息
+
 - **问题3 : 出现下面问题的原因与解决方案是什么?**
 
     - 更新代码后显示： unable to unlink old ‘xxx/xxx/xx’ : invalid argument
@@ -112,7 +116,7 @@
     - 克隆仓库：git clone XXX/XXX.git
     - 提交修改到暂存区：git add .
     - 提交修改到远程仓库：git push
-    - 从远程仓库下载代码：git clone XXX/XXX.git
+    - 从远程仓库下载代码：git clone XXX/XXX.git、git pull
     - 查看仓库状态：git status
     - 比较文件的不同,即暂存区与工作区的差别：git diff
     - 创建分支/切换分支/查看分支列表：git branch branch_name/git checkout branch_name/git branch
