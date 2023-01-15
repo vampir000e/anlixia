@@ -70,15 +70,13 @@
 ##### 1.git学习目标
 
 - **问题1： 根据下面的图片，回答问题**
-
-![alt](https://raw.githubusercontent.com/vampir000e/my-img/main/Blog/git1.png)  
-
-
+    ![alt](https://raw.githubusercontent.com/vampir000e/my-img/main/Blog/git1.png)  
     解释下面概念：
     - workspace
     - staging area
     - local repository
     - remote repository
+
 
 - **问题2 ： 如何解决 git 冲突?**
 
