@@ -72,10 +72,10 @@
 - **问题1： 根据下面的图片，回答问题**
     ![alt](https://raw.githubusercontent.com/vampir000e/my-img/main/Blog/git1.png)  
     解释下面概念：
-    - workspace
-    - staging area
-    - local repository
-    - remote repository
+    - workspace: 工作区，仓库的目录，独立于各个分支
+    - staging area：暂存区，工作区写入版本库前的缓存区，独立于各个分支
+    - local repository：本地仓库
+    - remote repository：远程仓库
 
 
 - **问题2 ： 如何解决 git 冲突?**
@@ -109,17 +109,17 @@
         - 解决方案:
 
 - **完成下列操作**
-    - 克隆仓库
-    - 提交修改到暂存区
-    - 提交修改到远程仓库
-    - 从远程仓库下载代码
-    - 查看仓库状态
-    - 比较文件的不同,即暂存区与工作区的差别
-    - 创建分支/切换分支/查看分支列表
-    - 上传代码到分支上
-    - 合并分支到主分支
-    - 删除分支
-    - 回退到某个版本
+    - 克隆仓库：git clone XXX/XXX.git
+    - 提交修改到暂存区：git add .
+    - 提交修改到远程仓库：git push
+    - 从远程仓库下载代码：git clone XXX/XXX.git
+    - 查看仓库状态：git status
+    - 比较文件的不同,即暂存区与工作区的差别：git diff
+    - 创建分支/切换分支/查看分支列表：git branch branch_name/git checkout branch_name/git branch
+    - 上传代码到分支上：git push <远程主机名> <本地分支名>:<远程分支名>
+    - 合并分支到主分支：git merge branch_name
+    - 删除分支：git branch -d branch_name(本地)/git push -d origin branch_name(远程)
+    - 回退到某个版本：git reset --hard 版本号
 
 ### 02 (1.29-2.11)
 
